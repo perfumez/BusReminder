@@ -1,0 +1,322 @@
+{
+  "variant": {
+    "label": "Debug",
+    "keywordSettings": {
+      "buildType": "debug"
+    },
+    "description": "Emit debug information without performing optimizations"
+  },
+  "activeEnvironments": [],
+  "codeModel": {
+    "configurations": [
+      {
+        "name": "Debug",
+        "projects": [
+          {
+            "buildDirectory": "/data/code/bitbucket/BusReminder/ReminderScreen/build",
+            "name": "ReminderScreen",
+            "sourceDirectory": "/data/code/bitbucket/BusReminder/ReminderScreen",
+            "targets": [
+              {
+                "artifacts": [
+                  "/data/code/bitbucket/BusReminder/Libs/nana/libnana.a"
+                ],
+                "buildDirectory": "/data/code/bitbucket/BusReminder/Libs/nana",
+                "fileGroups": [
+                  {
+                    "compileFlags": " -g -std=c++14  -Wall -g   -std=gnu++14",
+                    "defines": [
+                      "DEBUG",
+                      "NANA_IGNORE_CONF",
+                      "VERBOSE_PREPROCESSOR",
+                      "_DEBUG",
+                      "_GLIBCXX_USE_NANOSLEEP",
+                      "linux"
+                    ],
+                    "includePath": [
+                      {
+                        "path": "/data/code/bitbucket/BusReminder/ReminderScreen/../Libs/nana/include"
+                      },
+                      {
+                        "path": "/data/code/bitbucket/BusReminder/ReminderScreen/../Libs/rapidjson/include"
+                      },
+                      {
+                        "path": "/usr/include/freetype2"
+                      },
+                      {
+                        "path": "/data/code/bitbucket/BusReminder/Libs/nana/include"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "source/any.cpp",
+                      "source/basic_types.cpp",
+                      "source/charset.cpp",
+                      "source/datetime.cpp",
+                      "source/deploy.cpp",
+                      "source/internationalization.cpp",
+                      "source/stdc++.cpp",
+                      "source/unicode_bidi.cpp",
+                      "source/detail/platform_abstraction.cpp",
+                      "source/detail/platform_spec_posix.cpp",
+                      "source/detail/platform_spec_windows.cpp",
+                      "source/filesystem/filesystem.cpp",
+                      "source/gui/animation.cpp",
+                      "source/gui/basis.cpp",
+                      "source/gui/dragger.cpp",
+                      "source/gui/drawing.cpp",
+                      "source/gui/effects.cpp",
+                      "source/gui/element.cpp",
+                      "source/gui/filebox.cpp",
+                      "source/gui/layout_utility.cpp",
+                      "source/gui/msgbox.cpp",
+                      "source/gui/notifier.cpp",
+                      "source/gui/place.cpp",
+                      "source/gui/programming_interface.cpp",
+                      "source/gui/screen.cpp",
+                      "source/gui/state_cursor.cpp",
+                      "source/gui/timer.cpp",
+                      "source/gui/tooltip.cpp",
+                      "source/gui/wvl.cpp",
+                      "source/gui/detail/basic_window.cpp",
+                      "source/gui/detail/bedrock_pi.cpp",
+                      "source/gui/detail/bedrock_posix.cpp",
+                      "source/gui/detail/bedrock_windows.cpp",
+                      "source/gui/detail/color_schemes.cpp",
+                      "source/gui/detail/drawer.cpp",
+                      "source/gui/detail/element_store.cpp",
+                      "source/gui/detail/events_operation.cpp",
+                      "source/gui/detail/native_window_interface.cpp",
+                      "source/gui/detail/window_layout.cpp",
+                      "source/gui/detail/window_manager.cpp",
+                      "source/gui/widgets/button.cpp",
+                      "source/gui/widgets/categorize.cpp",
+                      "source/gui/widgets/checkbox.cpp",
+                      "source/gui/widgets/combox.cpp",
+                      "source/gui/widgets/date_chooser.cpp",
+                      "source/gui/widgets/float_listbox.cpp",
+                      "source/gui/widgets/form.cpp",
+                      "source/gui/widgets/frame.cpp",
+                      "source/gui/widgets/group.cpp",
+                      "source/gui/widgets/label.cpp",
+                      "source/gui/widgets/listbox.cpp",
+                      "source/gui/widgets/menu.cpp",
+                      "source/gui/widgets/menubar.cpp",
+                      "source/gui/widgets/panel.cpp",
+                      "source/gui/widgets/picture.cpp",
+                      "source/gui/widgets/progress.cpp",
+                      "source/gui/widgets/scroll.cpp",
+                      "source/gui/widgets/slider.cpp",
+                      "source/gui/widgets/spinbox.cpp",
+                      "source/gui/widgets/tabbar.cpp",
+                      "source/gui/widgets/textbox.cpp",
+                      "source/gui/widgets/toolbar.cpp",
+                      "source/gui/widgets/treebox.cpp",
+                      "source/gui/widgets/widget.cpp",
+                      "source/gui/widgets/skeletons/content_view.cpp",
+                      "source/gui/widgets/skeletons/text_editor.cpp",
+                      "source/paint/graphics.cpp",
+                      "source/paint/image.cpp",
+                      "source/paint/image_process_selector.cpp",
+                      "source/paint/pixel_buffer.cpp",
+                      "source/paint/text_renderer.cpp",
+                      "source/paint/detail/image_process_provider.cpp",
+                      "source/paint/detail/native_paint_interface.cpp",
+                      "source/system/dataexch.cpp",
+                      "source/system/platform.cpp",
+                      "source/system/shared_wrapper.cpp",
+                      "source/system/timepiece.cpp",
+                      "source/threads/pool.cpp"
+                    ]
+                  }
+                ],
+                "fullName": "libnana.a",
+                "linkerLanguage": "CXX",
+                "name": "nana",
+                "sourceDirectory": "/data/code/bitbucket/BusReminder/Libs/nana",
+                "type": "STATIC_LIBRARY"
+              },
+              {
+                "artifacts": [
+                  "/data/code/bitbucket/BusReminder/ReminderScreen/build/ReminderScreen"
+                ],
+                "buildDirectory": "/data/code/bitbucket/BusReminder/ReminderScreen/build",
+                "fileGroups": [
+                  {
+                    "compileFlags": " -g   -std=gnu++14",
+                    "defines": [
+                      "DEBUG",
+                      "_DEBUG",
+                      "_GLIBCXX_USE_NANOSLEEP"
+                    ],
+                    "includePath": [
+                      {
+                        "path": "/data/code/bitbucket/BusReminder/ReminderScreen/../Libs/nana/include"
+                      },
+                      {
+                        "path": "/data/code/bitbucket/BusReminder/ReminderScreen/../Libs/rapidjson/include"
+                      },
+                      {
+                        "path": "/usr/include/freetype2"
+                      },
+                      {
+                        "path": "/data/code/bitbucket/BusReminder/Libs/nana/include"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "BusInformationRetriever.cpp",
+                      "main.cpp",
+                      "ReminderScreen.cpp",
+                      "Settings.cpp"
+                    ]
+                  }
+                ],
+                "fullName": "ReminderScreen",
+                "linkFlags": "-rdynamic",
+                "linkLanguageFlags": "-g",
+                "linkLibraries": "/data/code/bitbucket/BusReminder/Libs/nana/libnana.a -lXft -lX11 -lfontconfig -lboost_system -lpthread -lX11 -lXft -static-libgcc -static-libstdc++ -pthread -lstdc++fs",
+                "linkerLanguage": "CXX",
+                "name": "ReminderScreen",
+                "sourceDirectory": "/data/code/bitbucket/BusReminder/ReminderScreen",
+                "type": "EXECUTABLE"
+              }
+            ]
+          },
+          {
+            "buildDirectory": "/data/code/bitbucket/BusReminder/Libs/nana",
+            "name": "nana",
+            "sourceDirectory": "/data/code/bitbucket/BusReminder/Libs/nana",
+            "targets": [
+              {
+                "artifacts": [
+                  "/data/code/bitbucket/BusReminder/Libs/nana/libnana.a"
+                ],
+                "buildDirectory": "/data/code/bitbucket/BusReminder/Libs/nana",
+                "fileGroups": [
+                  {
+                    "compileFlags": " -g -std=c++14  -Wall -g   -std=gnu++14",
+                    "defines": [
+                      "DEBUG",
+                      "NANA_IGNORE_CONF",
+                      "VERBOSE_PREPROCESSOR",
+                      "_DEBUG",
+                      "_GLIBCXX_USE_NANOSLEEP",
+                      "linux"
+                    ],
+                    "includePath": [
+                      {
+                        "path": "/data/code/bitbucket/BusReminder/ReminderScreen/../Libs/nana/include"
+                      },
+                      {
+                        "path": "/data/code/bitbucket/BusReminder/ReminderScreen/../Libs/rapidjson/include"
+                      },
+                      {
+                        "path": "/usr/include/freetype2"
+                      },
+                      {
+                        "path": "/data/code/bitbucket/BusReminder/Libs/nana/include"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "source/any.cpp",
+                      "source/basic_types.cpp",
+                      "source/charset.cpp",
+                      "source/datetime.cpp",
+                      "source/deploy.cpp",
+                      "source/internationalization.cpp",
+                      "source/stdc++.cpp",
+                      "source/unicode_bidi.cpp",
+                      "source/detail/platform_abstraction.cpp",
+                      "source/detail/platform_spec_posix.cpp",
+                      "source/detail/platform_spec_windows.cpp",
+                      "source/filesystem/filesystem.cpp",
+                      "source/gui/animation.cpp",
+                      "source/gui/basis.cpp",
+                      "source/gui/dragger.cpp",
+                      "source/gui/drawing.cpp",
+                      "source/gui/effects.cpp",
+                      "source/gui/element.cpp",
+                      "source/gui/filebox.cpp",
+                      "source/gui/layout_utility.cpp",
+                      "source/gui/msgbox.cpp",
+                      "source/gui/notifier.cpp",
+                      "source/gui/place.cpp",
+                      "source/gui/programming_interface.cpp",
+                      "source/gui/screen.cpp",
+                      "source/gui/state_cursor.cpp",
+                      "source/gui/timer.cpp",
+                      "source/gui/tooltip.cpp",
+                      "source/gui/wvl.cpp",
+                      "source/gui/detail/basic_window.cpp",
+                      "source/gui/detail/bedrock_pi.cpp",
+                      "source/gui/detail/bedrock_posix.cpp",
+                      "source/gui/detail/bedrock_windows.cpp",
+                      "source/gui/detail/color_schemes.cpp",
+                      "source/gui/detail/drawer.cpp",
+                      "source/gui/detail/element_store.cpp",
+                      "source/gui/detail/events_operation.cpp",
+                      "source/gui/detail/native_window_interface.cpp",
+                      "source/gui/detail/window_layout.cpp",
+                      "source/gui/detail/window_manager.cpp",
+                      "source/gui/widgets/button.cpp",
+                      "source/gui/widgets/categorize.cpp",
+                      "source/gui/widgets/checkbox.cpp",
+                      "source/gui/widgets/combox.cpp",
+                      "source/gui/widgets/date_chooser.cpp",
+                      "source/gui/widgets/float_listbox.cpp",
+                      "source/gui/widgets/form.cpp",
+                      "source/gui/widgets/frame.cpp",
+                      "source/gui/widgets/group.cpp",
+                      "source/gui/widgets/label.cpp",
+                      "source/gui/widgets/listbox.cpp",
+                      "source/gui/widgets/menu.cpp",
+                      "source/gui/widgets/menubar.cpp",
+                      "source/gui/widgets/panel.cpp",
+                      "source/gui/widgets/picture.cpp",
+                      "source/gui/widgets/progress.cpp",
+                      "source/gui/widgets/scroll.cpp",
+                      "source/gui/widgets/slider.cpp",
+                      "source/gui/widgets/spinbox.cpp",
+                      "source/gui/widgets/tabbar.cpp",
+                      "source/gui/widgets/textbox.cpp",
+                      "source/gui/widgets/toolbar.cpp",
+                      "source/gui/widgets/treebox.cpp",
+                      "source/gui/widgets/widget.cpp",
+                      "source/gui/widgets/skeletons/content_view.cpp",
+                      "source/gui/widgets/skeletons/text_editor.cpp",
+                      "source/paint/graphics.cpp",
+                      "source/paint/image.cpp",
+                      "source/paint/image_process_selector.cpp",
+                      "source/paint/pixel_buffer.cpp",
+                      "source/paint/text_renderer.cpp",
+                      "source/paint/detail/image_process_provider.cpp",
+                      "source/paint/detail/native_paint_interface.cpp",
+                      "source/system/dataexch.cpp",
+                      "source/system/platform.cpp",
+                      "source/system/shared_wrapper.cpp",
+                      "source/system/timepiece.cpp",
+                      "source/threads/pool.cpp"
+                    ]
+                  }
+                ],
+                "fullName": "libnana.a",
+                "linkerLanguage": "CXX",
+                "name": "nana",
+                "sourceDirectory": "/data/code/bitbucket/BusReminder/Libs/nana",
+                "type": "STATIC_LIBRARY"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cookie": "0.6921646596140243",
+    "inReplyTo": "codemodel",
+    "type": "reply"
+  }
+}

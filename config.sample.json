@@ -1,0 +1,45 @@
+{
+    "intervalSeconds" : 30,
+    "stopInfo" : [
+        {
+            "id" : "BS23387",
+            "name" : "서울역버스환승센터(중)",
+            "workingHourBegin" : 420,
+            "workingHourEnd" : 810,
+            "workingDays" : "Mon,Tue,Wed,Thu,Fri",
+            "lineNumbers" : "173,201"
+        },
+        {
+            "id" : "12190521005",
+            "name" : "영등포역",
+            "workingHourBegin" : 420,
+            "workingHourEnd" : 540,
+            "workingDays" : "Mon,Tue,Wed,Thu,Fri",
+            "lineNumbers" : "160"
+        },
+        {
+            "id" : "BS69997",
+            "name" : "사당역",
+            "workingHourBegin" : 420,
+            "workingHourEnd" : 600,
+            "workingDays" : "Mon,Tue,Wed,Thu,Fri",
+            "lineNumbers" : "502"
+        },
+        {
+            "id" : "11230641035",
+            "name" : "강남역",
+            "workingHourBegin" : 420,
+            "workingHourEnd" : 480,
+            "workingDays" : "Mon,Tue,Wed,Thu,Fri",
+            "lineNumbers" : "140,400"
+        },
+        {
+            "id" : "BS232633",
+            "name" : "잠실역",
+            "workingHourBegin" : 420,
+            "workingHourEnd" : 510,
+            "workingDays" : "Mon,Tue,Wed,Thu,Fri",
+            "lineNumbers" : "320"
+        }
+    ]
+}
